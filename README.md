@@ -1,7 +1,7 @@
 # cPEPmatch
 
 
-cPEPmatch is computational approach to rationally design cyclic peptides that potentially bind at desired regions of the interface of protein-protein complexes. The methodology is based on comparing the protein backbone structure of short peptide segments (epitopes) at the protein-protein interface with a collection of cyclic peptide backbone structures. A cyclic peptide that matches the backbone structure of the segment is used as a template for a binder by adapting the amino acid side chains to the side chains found in the target complex. 
+cPEPmatch is computational approach to rationally design cyclic peptides that potentially bind at desired regions of the interface of protein-protein complexes. The methodology is based on comparing the protein backbone structure of short peptide segments at the protein-protein interface with a collection of cyclic peptide backbone structures. A cyclic peptide that matches the backbone structure of the segment is used as a template for a binder by adapting the amino acid side chains to the side chains found in the target complex. 
 
 
 Created by Brianda L. Santini - Physics Department T38, Technical University of Munich, Garching, Germany
