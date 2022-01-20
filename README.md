@@ -38,7 +38,7 @@ Citation: Santini BL, Zacharias M. Rapid in silico Design of Potential Cyclic Pe
 
 ### 1. Cyclic Peptide Database (Database folder: cyclo_database)
 
-- There is no need to run this program constatntly unless you want to add a new cyclic peptide to the library. 
+- There is no need to run this section constatntly unless you want to add a new cyclic peptide to the library. 
       
 - The database folder contains all cyclic peptides, clean and renumbered. Name should be ‘pdb’-cp.pdb.
       
