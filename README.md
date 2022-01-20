@@ -73,7 +73,7 @@ c.  Match + Mutate -  This section matches the interface motifs with those from 
 
             protein1 residues (eg. ‘1 to 669’)
 
-            gag residues (eg. ‘670 to 675’) 
+            target residues (eg. ‘670 to 675’) 
 
             pdb name (eg. ‘1qqp’)
 
