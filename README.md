@@ -2,7 +2,7 @@
 
 Created by Brianda L. Santini - Physics Department T38, Technical University of Munich, Garching, Germany
 
-## ENVIRONMENT
+## Environment
 
 - Download and place this directory in your working directory (eg. inside /home/user/Documents/cPEPmatch/).
       
@@ -34,12 +34,11 @@ pip install nglview
 
 
 
-## PROGRAM SECTIONS
+## Program Sections
 
+### 1. Cyclic Peptide Database (Database folder: cyclo_database)
 
-1. Cyclic Peptide Database (Program: cPEPmatch_database.ipynb, database folder: cyclo_database)
-
-- There is no need to run this program unless you want to add a new cyclic peptide to the library. 
+- There is no need to run this program constatntly unless you want to add a new cyclic peptide to the library. 
       
 - The database folder contains all cyclic peptides, clean and renumbered. Name should be ‘pdb’-cp.pdb.
       
@@ -50,18 +49,18 @@ pip install nglview
 
 
 
-2. Protein Matching (Program: cPEP-match.ipynb)
+### 2. Protein Matching (Program: cPEP-match.ipynb)
 
 This program has three sections: 
 
-(1) Interface Characterization - This selects the all the protein residues that are within an interface_cutoff of the GAG. It outputs an interface.pdb file which will be read by the next step.
+a.  Interface Characterization - This selects the all the protein residues that are within an interface_cutoff of the GAG. It outputs an interface.pdb file which will be read by the next step.
 
-(2) Motif construction -  This calculates the distance motifs for the interface residues contained in the interface.pdb file.
+b.  Motif construction -  This calculates the distance motifs for the interface residues contained in the interface.pdb file.
 
-(3) Match + Mutate -  This section matches the interface motifs with those from the database.pkl file. The matches read and those that overlap with the GAG are deleted. Then, mutation + minimization of the adapted side chains is done using Modeller. 
+c.  Match + Mutate -  This section matches the interface motifs with those from the database.pkl file. The matches read and those that overlap with the GAG are deleted. Then, mutation + minimization of the adapted side chains is done using Modeller. 
 
 
-Running instructions:
+## Running instructions:
 
 - Before running this program, make sure to create a new directory inside your working folder (eg. inside /home/user/Documents/cPEPmatch/), the name for this directory should be the pdb name (eg. 1qqp). Place inside the clean protein-gag complex file pdb (eg. 1qqp.pdb) that you want to test. 
       
