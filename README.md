@@ -1,11 +1,13 @@
-cPEPmatch 
-Code specificities and program instructions
+# cPEPmatch
 
-ENVIRONMENT
+Created by Brianda L. Santini - Physics Department T38, Technical University of Munich, Garching, Germany
 
-- Download and place this directory in your working directory (eg. inside /home/user/Documents/gag/).
+## ENVIRONMENT
+
+- Download and place this directory in your working directory (eg. inside /home/user/Documents/cPEPmatch/).
       
 - The overall program should be ran under Anaconda environment (https://docs.anaconda.com/anaconda/install/linux/). 
+      
       
 - Modules to install: 
 
@@ -27,12 +29,12 @@ conda install modeller
 You will be prompted after installation to edit a file to add your Modeller license key. Alternatively, set the KEY_MODELLER environment variable to your license key before you run 'conda install'. 
 https://salilab.org/modeller/9.17/release.html
 
-
 NGL Viewer
 pip install nglview
 
 
-PROGRAMS
+
+## PROGRAM SECTIONS
 
 
 1. Cyclic Peptide Database (Program: cPEPmatch_database.ipynb, database folder: cyclo_database)
@@ -67,12 +69,17 @@ Running instructions:
 
 interface_cutoff (units are Angstroms, eg. 6-10)
 frmsd_threshold (units are Angstroms, eg. 0.5-1)
-protein residues (eg. ‘1 to 669’)
-gag residues (eg. ‘670 to 675’)
+protein1 residues (eg. ‘1 to 669’)
+gag residues (eg. ‘670 to 675’) 
 pdb name (eg. ‘1qqp’)
 my_location (eg, '/home/user/Documents/cPEPmatch/')
 
-
-- Run each section one by one to make sure each of them is working properly.
       
 - The output of this program is a match_list.txt file, along with separate PDB files of all the matched and adapted cyclic peptides.
+
+
+### Updates:
+
+Supports all motif size selections (4-6 work best).
+Allows a selection of non-consecutive amino acids (set "conscutive = False").
+The database program creator is now attached within the same program (if you want to run it, set "CREATE_CYCLOLIB=1")
