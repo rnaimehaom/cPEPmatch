@@ -10,7 +10,7 @@ Citation: Santini BL, Zacharias M. Rapid in silico Design of Potential Cyclic Pe
 
 ## Environment
       
-- Tis program works under Anaconda environment (https://docs.anaconda.com/anaconda/install/linux/). 
+- This program works under Anaconda environment (https://docs.anaconda.com/anaconda/install/linux/). 
       
       
 - Modules to install: 
