@@ -66,19 +66,19 @@ c.  Match + Mutate -  This section matches the interface motifs with those from 
       
 - Variables that need to be adjusted: 
 
-interface_cutoff (units are Angstroms, eg. 6-10)
-frmsd_threshold (units are Angstroms, eg. 0.5-1)
-protein1 residues (eg. ‘1 to 669’)
-gag residues (eg. ‘670 to 675’) 
-pdb name (eg. ‘1qqp’)
-my_location (eg, '/home/user/Documents/cPEPmatch/')
+-- interface_cutoff (units are Angstroms, eg. 6-10)
+-- frmsd_threshold (units are Angstroms, eg. 0.5-1)
+-- protein1 residues (eg. ‘1 to 669’)
+-- gag residues (eg. ‘670 to 675’) 
+-- pdb name (eg. ‘1qqp’)
+-- my_location (eg, '/home/user/Documents/cPEPmatch/')
 
       
 - The output of this program is a match_list.txt file, along with separate PDB files of all the matched and adapted cyclic peptides.
 
 
-### Updates:
+### Recent updates:
 
-Supports all motif size selections (4-6 work best).
-Allows a selection of non-consecutive amino acids (set "conscutive = False").
-The database program creator is now attached within the same program (if you want to run it, set "CREATE_CYCLOLIB=1")
+- Supports all motif size selections (4-6 work best).
+- Allows a selection of non-consecutive amino acids (set "conscutive = False").
+- The database program creator is now attached within the same program (if you want to run it, set "CREATE_CYCLOLIB=1")
