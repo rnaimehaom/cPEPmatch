@@ -14,19 +14,37 @@
 - Modules to install: 
 
 Numpy and Scipy 
+
+
 pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
 BioPython 
+
+
 pip install biopython
+
+
 https://biopython.org/wiki/Download
 
+
+
 VMD 
+
+
 conda install -c conda-forge vmd-python 
+
+
 https://vmd.robinbetz.com/
 
 Modeller - This one is a bit tricky try:
+
+
 conda config --add channels salilab
+
+
 conda install modeller
+
+
 
 You will be prompted after installation to edit a file to add your Modeller license key. Alternatively, set the KEY_MODELLER environment variable to your license key before you run 'conda install'. 
 https://salilab.org/modeller/9.17/release.html
@@ -68,14 +86,21 @@ c.  Match + Mutate -  This section matches the interface motifs with those from 
       
 - Variables that need to be adjusted: 
 
--- interface_cutoff (units are Angstroms, eg. 6-10)
--- frmsd_threshold (units are Angstroms, eg. 0.5-1)
--- protein1 residues (eg. ‘1 to 669’)
--- gag residues (eg. ‘670 to 675’) 
--- pdb name (eg. ‘1qqp’)
--- my_location (eg, '/home/user/Documents/cPEPmatch/')
+
+interface_cutoff (units are Angstroms, eg. 6-10)
+
+frmsd_threshold (units are Angstroms, eg. 0.5-1)
+
+protein1 residues (eg. ‘1 to 669’)
+
+gag residues (eg. ‘670 to 675’) 
+
+pdb name (eg. ‘1qqp’)
+
+my_location (eg, '/home/user/Documents/cPEPmatch/')
 
       
+
 - The output of this program is a match_list.txt file, along with separate PDB files of all the matched and adapted cyclic peptides.
 
 
