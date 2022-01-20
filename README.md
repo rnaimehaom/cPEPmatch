@@ -9,10 +9,8 @@ Created by Brianda L. Santini - Physics Department T38, Technical University of 
 Citation: Santini BL, Zacharias M. Rapid in silico Design of Potential Cyclic Peptide Binders Targeting Protein-Protein Interfaces. Front Chem. 2020  doi: 10.3389/fchem.2020.573259
 
 ## Environment
-
-- Download and place this directory in your working directory (eg. inside /home/user/Documents/cPEPmatch/).
       
-- The overall program should be ran under Anaconda environment (https://docs.anaconda.com/anaconda/install/linux/). 
+- Tis program works under Anaconda environment (https://docs.anaconda.com/anaconda/install/linux/). 
       
       
 - Modules to install: 
