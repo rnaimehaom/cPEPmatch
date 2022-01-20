@@ -13,25 +13,25 @@
       
 - Modules to install: 
 
-Numpy and Scipy - pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
+            Numpy and Scipy - pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
 
-BioPython - pip install biopython (https://biopython.org/wiki/Download)
+            BioPython - pip install biopython (https://biopython.org/wiki/Download)
 
 
 
-VMD - conda install -c conda-forge vmd-python (https://vmd.robinbetz.com/)
+            VMD - conda install -c conda-forge vmd-python (https://vmd.robinbetz.com/)
 
-Modeller - This one is a bit tricky try: 
+            Modeller - This one is a bit tricky try: 
 
-conda config --add channels salilab
+                  conda config --add channels salilab
 
-conda install modeller
+                  conda install modeller
 
-You will be prompted after installation to edit a file to add your Modeller license key. Alternatively, set the KEY_MODELLER environment variable to your license key before you run 'conda install'. 
+                  You will be prompted after installation to edit a file to add your Modeller license key. Alternatively, set the KEY_MODELLER environment variable to your license key before you run 'conda install'. 
 https://salilab.org/modeller/9.17/release.html
 
 
-NGL Viewer - pip install nglview
+            NGL Viewer - pip install nglview
 
 
 
