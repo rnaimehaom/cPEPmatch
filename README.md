@@ -1,6 +1,8 @@
 # cPEPmatch
 
-Created by Brianda L. Santini - Physics Department T38, Technical University of Munich, Garching, Germany
+- Created by Brianda L. Santini - Physics Department T38, Technical University of Munich, Garching, Germany
+
+- Santini BL, Zacharias M. Rapid in silico Design of Potential Cyclic Peptide Binders Targeting Protein-Protein Interfaces. Front Chem. 2020  doi: 10.3389/fchem.2020.573259
 
 ## Environment
 
